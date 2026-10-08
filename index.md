@@ -133,9 +133,13 @@ node_modules/
 
 터미널에서 프로젝트 폴더로 이동한 뒤 순서대로 실행합니다. 기존에 Git 저장소가 이미 만들어져 있다면 `git init`은 생략해도 됩니다.
 
+  ```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 ```bash
 git init
-git status
 git add .
 git status
 git commit -m "first commit"
