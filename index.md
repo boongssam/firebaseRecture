@@ -23,8 +23,7 @@ description: 코딩 → GitHub 업로드 → Firebase 배포까지, 처음 하�
 - Firebase App Hosting 및 Cloud Storage 사용을 위해 Firebase 프로젝트의 **Blaze 요금제와 결제 설정**을 확인합니다. 실제 사용량에 따라 비용이 발생할 수 있습니다.
 
 ```bash
-node --version
-npm.cmd --version
+node -version
 git --version
 ```
 
@@ -92,8 +91,7 @@ env:
 ### 1-5. 로컬에서 작동 확인하기
 
 ```bash
-npm.cmd install
-npm.cmd run dev
+npm run dev
 ```
 
 터미널에 표시된 로컬 주소를 열고 다음을 순서대로 확인합니다.
