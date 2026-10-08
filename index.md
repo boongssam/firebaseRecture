@@ -105,6 +105,15 @@ npm run dev
 
 > **AI 결과 검토** AI의 평가는 참고용입니다. 결과의 타당성을 교사가 확인하고, 학생에게 제공할 피드백은 필요에 따라 수정하세요.
 
+경고가 나오면?
+npm : 이 시스템에서 스크립트를 실행할 수 없으므로 C:\Program Files\nodejs\npm.ps1 파일을 로드할 수 없습니다. 자세한 내용은 about_Execution_Policies(https://go.microsoft.com/fw
+link/?LinkID=135170)를 참조하십시오.
+
+```bash
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+
 ## 2. GitHub에 코드 업로드
 
 ### 2-1. 내 저장소 만들기
